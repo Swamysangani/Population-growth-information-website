@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.slidesharecdn.com%2Flandresources-150129082126-conversion-gate01%2F85%2Fland-resources-1-320.jpg%3Fcb%3D1666198043&tbnid=ej6XKa2kEKhRGM&vet=12ahUKEwjRk9ThureCAxUMpGMGHdFvBeoQMygAegQIARBu..i&imgrefurl=https%3A%2F%2Fwww.slideshare.net%2Fkhatijakainath%2Fland-resources-44035653&docid=v5ShmWjayAe_0M&w=320&h=240&q=land%20resources%20images&ved=2ahUKEwjRk9ThureCAxUMpGMGHdFvBeoQMygAegQIARBu");
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black; /* Dark green background */
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF; /* White text */
+}
+
+.logo img {
+    width: 40px; /* Adjust the width of the logo image as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust the margin as needed for spacing between logo and text */
+}
+
+
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #FFFFFF; /* White text */
+}
+
+.menu li a:hover {
+    color: white; /* Light green text on hover */
+}
+
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #333; /* Dark green background */
+}
+
+.home-text {
+    width: 60%;
+}
+
+.home-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF; /* White text */
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    font-size: 18px;
+    color: #FFFFFF; /* White text */
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.home-text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: color #332; ; /* Light green background */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.home-text a:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+.home-image {
+    width: 40%;
+}
+
+.home-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.service-section {
+    background-color: #808080; /* Light green background */
+    padding: 40px;
+}
+
+.service-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.service-card {
+    background-color: #FFFFFF; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.service-icon {
+    font-size: 48px;
+    color: #4CAF50; /* Light green icon color */
+    margin-bottom: 10px;
+}
+
+.service-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+    margin-bottom: 10px;
+}
+
+.service-desc {
+    font-size: 18px;
+    color: #333; /* Dark gray text */
+    line-height: 1.5;
+    margin-bottom: 10px;
+    background-image: 10px;
+}
+
+.service-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Light green background */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.service-link:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #D4E157; /* Lime green background */
+}
+
+.about-text {
+    width: 60%;
+}
+
+.about-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF; /* White text */
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #FFFFFF; /* White text */
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about-text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Light green background */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.about-text a:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+.about-image {
+    width: 40%;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contact-section {
+    background-color: #C5E1A5; /* Light green background */
+    padding: 40px;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    outline: none;
+}
+
+.contact-form input[type="submit"] {
+    width: 40%;
+    background-color: #4CAF50; /* Light green background */
+    color: #FFFFFF; /* White text */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+.footer {
+    background-color: #2E7D32; /* Dark green background */
+    padding: 20px;
+    color: #FFFFFF; /* White text */
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .home-section, .about-section {
+        flex-direction: column;
+        
+    }
+
+    .home-text, .home-image, .about-text, .about-section, .about-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+    }
+}
